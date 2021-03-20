@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+  background-color: #c9b5ab
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/*
+font-family: 'PT Sans', sans-serif;
+font-family: 'PT Serif', serif;
+*/
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  color: #3f1622;
+  font-size: 1.5rem;
+}
+
+nav ol li {
+  list-style-type: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.125rem;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
