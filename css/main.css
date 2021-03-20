@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
-  background-color: #c9b5ab
+  background-color: #c9b5ab;
+  line-height: 1.5rem;
+  font-weight: normal;
 }
 
 *, *::before, *::after {
@@ -27,4 +29,20 @@ nav ol li {
 a {
   color: #8f2440;
   text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  border-bottom: 3px
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
+  color: #3f1622
 }
