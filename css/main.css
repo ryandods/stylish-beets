@@ -18,9 +18,11 @@ h1 {
   font-family: "PT Sans", sans-serif;
   color: #3f1622;
   font-size: 1.5rem;
+  padding-top: 3px;
 }
 
 nav ol li {
+  padding-top: 6px;
   list-style-type: none;
   font-weight: bold;
   font-family: "PT Sans", sans-serif;
