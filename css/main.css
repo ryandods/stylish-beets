@@ -16,13 +16,14 @@ font-family: "PT Serif", serif;
 
 h1 {
   font-family: "PT Sans", sans-serif;
-  font-size: 1.5rem;
   color: #3f1622;
+  font-size: 1.5rem;
 }
 
 nav ol li {
   list-style-type: none;
-  font-family: "PT Sans", serif;
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
 }
 
@@ -34,15 +35,63 @@ a {
 a:hover {
   color: #3f1622;
   border-bottom: 3px;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+body {
+  font-family: "PT Serif", serif;
+  color: #222;
 }
 
 img {
   width: 100%;
 }
 
+figcaption {
+  font-style: italic;
+  text-align: center;
+  color: #222;
+}
+
 h2 {
   font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
   color: #3f1622;
+}
+
+.harvest {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #222;
+}
+
+blockquote p {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #222;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+blockquote footer {
+  font-size: .8rem;
+  color: #222;
+}
+
+ol li {
+  list-style-type: lower-greek;
+  color: #222;
+}
+
+dl dt {
+  font-weight: bold;
+  color: #222;
+}
+
+ul li {
+  list-style-type: circle;
+  font-size: .8rem;
 }
